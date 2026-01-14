@@ -1,0 +1,12 @@
+what to install :
+curl - vim - iptables - nginx
+
+iptables-----------
+apk add iptables
+iptables -I INPUT -p tcp --dport 80 -j ACCEPT
+
+nginx--------
+apk add nginx
+rc-service nginx start
+
+
