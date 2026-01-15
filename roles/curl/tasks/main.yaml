@@ -1,0 +1,4 @@
+name: Install curl
+  apk:
+    name: curl
+    state: latest
