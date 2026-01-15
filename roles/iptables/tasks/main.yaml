@@ -1,0 +1,4 @@
+- name: install iptables
+  apk:
+    name: iptables
+    state: latest
