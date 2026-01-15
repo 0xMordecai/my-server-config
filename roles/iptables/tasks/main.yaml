@@ -2,3 +2,5 @@
   apk:
     name: iptables
     state: latest
+- name: allows incoming HTTP traffic
+  command: iptables -I INPUT -p tcp --dport 80 -j ACCEPT
