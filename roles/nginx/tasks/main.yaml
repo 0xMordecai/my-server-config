@@ -3,7 +3,7 @@
     name: nginx
     state: latest
 - name: Start nginx
-  service:
-    name: nginx
-    state: started
+  command: rc-service nginx start
+- name: Enable nginx at boot
+  command: rc-update add nginx default
 
