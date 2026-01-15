@@ -1,0 +1,4 @@
+-name: install vim
+ apk:
+   name: vim
+   state: latest
