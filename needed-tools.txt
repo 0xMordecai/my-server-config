@@ -1,7 +1,7 @@
 what to install :
 curl - vim - iptables - nginx
 
-iptables-----------
+iptables-----------allows incoming HTTP traffic
 apk add iptables
 iptables -I INPUT -p tcp --dport 80 -j ACCEPT
 
